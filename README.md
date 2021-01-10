@@ -1,30 +1,34 @@
 # Henry Gas Solubility Optimization for Feature Selection
 
+[![View Henry Gas Solubility Optimization for Feature Selection on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/78976-henry-gas-solubility-optimization-for-feature-selection)
+[![License](https://img.shields.io/badge/license-BSD_3-yellow.svg)](https://github.com/JingweiToo/Henry-Gas-Solubility-Optimization-for-Feature-Selection/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/badge/release-1.1-green.svg)](https://github.com/JingweiToo/Henry-Gas-Solubility-Optimization-for-Feature-Selection)
+
 ![Wheel](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/cb2ed62c-670f-4619-bd1c-3764b2d36ad2/cd253c4b-2281-4d19-9da3-9a50e2d26d99/images/1601813643.JPG)
 
 ## Introduction
 * This toolbox offers a Henry Gas Solubility Optimization ( HGSO ) method
-* The < Main.m file > illustrates the example of how HGSO can solve the feature selection problem using benchmark data-set.
+* The `Main` file illustrates the example of how HGSO can solve the feature selection problem using benchmark data-set.
 
 ## Input
-* *feat*     : feature vector ( Instances *x* Features )
-* *label*    : label vector ( Instances *x* 1 )
-* *N*        : number of gas
-* *max_Iter* : maximum number of iterations
-* *num_clus* : Number of gas types
-* *K*        : Constant
-* *alpha*    : Influence of other gas
-* *beta*     : Constant
-* *L1*       : Initial parameter
-* *L2*       : Initial parameter
-* *L3*       : Initial parameter
+* *`feat`*     : feature vector ( Instances *x* Features )
+* *`label`*    : label vector ( Instances *x* 1 )
+* *`N`*        : number of gas
+* *`max_Iter`* : maximum number of iterations
+* *`num_clus`* : Number of gas types
+* *`K`*        : Constant
+* *`alpha`*    : Influence of other gas
+* *`beta`*     : Constant
+* *`L1`*       : Initial parameter
+* *`L2`*       : Initial parameter
+* *`L3`*       : Initial parameter
 
 
 ## Output
-* *sFeat*    : selected features
-* *Sf*       : selected feature index
-* *Nf*       : number of selected features
-* *curve*    : convergence curve
+* *`sFeat`*    : selected features
+* *`Sf`*       : selected feature index
+* *`Nf`*       : number of selected features
+* *`curve`*    : convergence curve
 
 
 ### Example
